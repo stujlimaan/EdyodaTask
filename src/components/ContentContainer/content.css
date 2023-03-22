@@ -1,0 +1,119 @@
+.content-container{
+    width: 100%;
+    display: flex;
+    background: #172746;
+    
+}
+
+.main{
+    width: 64%;
+    font-size: medium;
+    font-weight: bolder;
+    word-spacing: 2px;
+}
+
+.content-container .container{
+    width: 80%;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+
+}
+.main-mid{
+    display: flex;
+    
+}
+
+.main-mid img{
+    width: 10%;
+}
+
+
+.main .span{
+    background-color: "#0096FF";
+}
+.main-mid .afterIcon{
+    margin-left: 30px;
+}
+
+
+.content-container .main-lockup{
+    width: 50%;
+    /* width: 799px; */
+/* height: 70px; */
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+/* font-size: 56px; */
+line-height: 1.5;
+/* identical to box height, or 70px */
+
+/* display: flex; */
+/* align-items: center; */
+/* letter-spacing: -0.01em; */
+
+color: #FFFFFF;
+}
+
+.form{
+    width: 50%;
+    background-color: white;
+    color: black;
+}
+
+.form .upbutton{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.form .upbutton button{
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.check-select{
+    border: 1px solid;
+    display: flex;
+    margin: 20px 40px 20px 40px;
+}
+.checkselect{
+    display: flex;
+    margin: 20px 40px 20px 40px;
+
+}
+
+
+.check-button{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.check-button .button{
+    width: 101px;
+height: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #F77171;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
